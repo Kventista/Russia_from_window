@@ -1,0 +1,14 @@
+.intro__content-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.intro__paragraph {
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    width: 100%;
+    max-width: 683px;
+}

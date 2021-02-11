@@ -1,0 +1,32 @@
+.header__lang {
+    margin-top: 5px;
+}
+
+.header__lang_RU {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    line-height: 23px;
+    font-style: normal;
+    margin-right: 18px;
+}
+
+.header__lang_EN {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter-Regular';
+    line-height: 23px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang_RU {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .header__lang_EN {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

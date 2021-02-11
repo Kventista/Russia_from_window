@@ -1,0 +1,8 @@
+.barentsburg__content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-right: 0px;
+    width: 782px;
+    justify-content: space-between;
+}

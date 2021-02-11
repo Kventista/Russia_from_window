@@ -1,0 +1,24 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: auto;
+}
+
+.link__heading {
+    font-family: 'Inter-Regular';
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaaaaa;
+}
+
+.link__address {
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFF;
+    width: 282px;
+    margin-bottom: 47px;
+    margin-top: 12px;
+}

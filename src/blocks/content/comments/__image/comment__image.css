@@ -1,0 +1,11 @@
+.comment__image {
+    margin-bottom: 42px;
+}
+
+@media screen and (max-width: 425px) {
+    .comment__image {
+        margin-top: 15px;
+        padding-left: 25%;
+        margin-bottom: 0;
+    }
+}

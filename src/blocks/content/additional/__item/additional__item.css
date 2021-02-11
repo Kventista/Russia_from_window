@@ -1,0 +1,23 @@
+.additional__item {
+    width: 284px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.additional__item:first-of-type {
+    background-image: url(src/images/byhta.png);
+}
+
+.additional__item:nth-last-of-type(3) {
+    background-image: url(src/images/shihan.png);
+}
+
+.additional__item:nth-last-of-type(2) {
+    background-image: url(src/images/cherepovec.png);
+}
+
+.additional__item:nth-last-of-type(1) {
+    background-image: url(src/images/Nikola.png);
+}

@@ -1,0 +1,45 @@
+.video {
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-bottom: 102px;
+}
+
+.video__title {
+    line-height: 78px;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 425px) {
+    .video {
+        margin: 0;
+        margin-left: 2%;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .video {
+        margin-bottom: 350px;
+    }
+    .video__title {
+        width: calc(100% - 38px);
+        line-height: 52px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        margin: 0;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .video {
+        margin: 0;
+        margin-left: 2%;
+        width: 95%;
+        padding-bottom: 5%;
+    }
+}

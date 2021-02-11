@@ -1,0 +1,104 @@
+.footer {
+    max-width: 1184px;
+    padding-bottom: 48px;
+    padding-top: 160px;
+    font-family: 'Inter-Regular';
+    background-color: #2A2C2F;
+    color: #ffffff;
+    margin: auto;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__link {
+    font-family: 'Inter-Regular';
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.footer__link:first-of-type {
+    margin-left: 0;
+}
+
+.footer___copyright {
+    max-width: 282px;
+    margin-left: 7%;
+    text-align: right;
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    .footer__nav {
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 16px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer__link {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .footer___copyright {
+        padding-top: 25%;
+        margin-left: 0;
+        text-align: left;
+        font-size: 14px;
+        width: 100%;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .footer {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    .footer__nav {
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 16px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer__link {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .footer___copyright {
+        padding-top: 25%;
+        margin-left: 0;
+        text-align: left;
+        font-size: 14px;
+        width: 100%;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        width: 100%;
+        padding-top: 0;
+    }
+    .footer__link {
+        font-size: 14px;
+    }
+    .footer__nav {
+        justify-content: space-around;
+    }
+    .footer___copyright {
+        text-align: right;
+    }
+}

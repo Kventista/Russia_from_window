@@ -1,0 +1,28 @@
+.url {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+
+.url__address {
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFF;
+    margin-top: 16px;
+}
+
+.url__heading {
+    font-family: 'Inter-Regular';
+    font-size: 12px;
+    line-height: 20px;
+    color: #aaaaaa;
+}
+
+@media screen and (max-width: 767px) {
+    .url {
+        display: none;
+    }
+}
